@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,25 +12,26 @@
     </header>
 
     <div class="container">
-<h1>Chatbot Features</h1>
+        <h1>Chatbot Features</h1>
         <ul>
             <li>Provides all Gulf College information.</li>
             <li>Assists with troubleshooting, math problems, coding, and more.</li>
             <li>Answers questions in any language.</li>
             <li>Supports chat in multiple languages.</li>
             <li>Collects user feedback.</li>
-            <li>Offers personalized recommendations.</li>
+            <li>Offers personalized recommendations, solving complex problems, providing good assistance in coding, and more.</li>
         </ul>
 
         <div class="separator"></div>
-<h4>Note That:</h4>
+        <h4>Note That:</h4>
         <p>This is just a test for the chatbot, so it may not be 100% accurate as the chatbot trains itself with your communications to enhance the efficiency of answering any questions.</p>
 
-        <div class="students">
-<h2><strong> Design by </strong></h2> <br>
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>This chatbot was created by the following students:</p>
             <ol>
                 <li>Abdulrazzaq Mohammed</li>
-                <li>Ghazi salah </li>
+                <li>Ghazi Salah</li>
                 <li>Rashid Mohammed</li>
                 <li>Mohammed Toqi</li>
                 <li>Amman Chapri</li>
@@ -38,11 +40,11 @@
             </ol>
         </div>
 
-        <div class="faq-dropdown">
+        <div class="faq-section">
             <h2>FAQ</h2>
             <details>
                 <summary>What could the chatbot do?</summary>
-                <p>The chatbot can provide information about Gulf College, assist with various tasks, answer questions in multiple languages, and offer personalized recommendations, solving complex problomes , good assistance in codeing and so many other things</p>
+                <p>The chatbot can provide information about Gulf College, assist with various tasks, answer questions in multiple languages, and offer personalized recommendations, solving complex problems, providing good assistance in coding, and more.</p>
             </details>
 
             <details>
@@ -52,7 +54,7 @@
 
             <details>
                 <summary>Who actually made this chatbot?</summary>
-                <p>The chatbot was created by Abdulrazzaq Mohammed Bait ishaq, he is the one who designed the chat bot you see on the right section of the page </p>
+                <p>The chatbot was created by Abdulrazzaq Mohammed, who designed the chatbot you see on the right section of the page.</p>
             </details>
 
             <details>
@@ -62,23 +64,12 @@
         </div>
     </div>
 
-
-  <script>
-  window.chatbaseConfig = {
-    chatbotId: "-t_dcxCqGsQoYqK3ekmSw",
-  }
-</script>
-<script
-  src="https://www.chatbase.co/embed.min.js"
-  id="-t_dcxCqGsQoYqK3ekmSw"
-  defer>
-</script>
-
-<br><br><br><br>
-
-    <footer>
-        &copy; 2023 Gulf College. All rights reserved.
-    </footer>
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("chatButton").addEventListener("click", function () {
+                alert("Chatbot is now active!");
+            });
+        });
+    </script>
 </body>
 </html>
