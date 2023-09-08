@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: headerAnimation 2s ease-in-out infinite alternate;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.separator {
+    border-top: 2px solid #007BFF;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    list-style-type: disc; /* Add bullet points */
+    transition: transform 0.2s ease-in-out; /* Add transition effect */
+}
+
+li:hover {
+    transform: scale(1.05); /* Scale up the element on hover */
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.students {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.faq-section {
+    margin-top: 30px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
